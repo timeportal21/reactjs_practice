@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class Counter extends Component {
     state = {
         counter: 0
-    }
+        
+    };
 
     handleIncrement = () => {
-        this.setState({
-            count: this.state.count +1
-        });
-    }
+        this.setState({ counter: this.state.counter +1 });
+    };
+
     render() {
         return(
             <div>
